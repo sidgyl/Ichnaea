@@ -1,0 +1,52 @@
+.button-css{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.margin-div{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.checkbox-font-weight{
+	font-weight: 400;
+}
+
+.login-page-body{
+	background-image:url(../pictures/login-background.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+}
+
+.no-padding-right{
+  padding-right: 0px;
+}
+
+.input-fields{
+  width: 100%;
+  border-radius: 4px;
+}
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
